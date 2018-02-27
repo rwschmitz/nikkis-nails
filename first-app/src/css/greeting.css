@@ -1,0 +1,11 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-family: 'Aller-Reg';
+  font-size: 18px;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  width: 100%;
+}

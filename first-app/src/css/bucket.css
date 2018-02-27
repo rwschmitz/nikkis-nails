@@ -1,0 +1,9 @@
+.bucket {
+  align-items: flex-start;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  width: 500px;
+}
