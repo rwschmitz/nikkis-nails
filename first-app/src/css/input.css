@@ -1,0 +1,9 @@
+.input-area {
+  border: none;
+  font-family: 'Aller-Reg';
+  font-size: 14px;
+  height: calc(25px - 0.5rem);
+  margin: 0 0.5rem;
+  padding: 0.25rem;
+  width: calc(200px - 0.5rem);
+}
