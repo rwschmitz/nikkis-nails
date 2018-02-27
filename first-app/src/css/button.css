@@ -2,7 +2,14 @@
   border: none;
   background-color: #000;
   color: #fff;
+  cursor: pointer;
   height: 25px;
   outline: 0;
+  transition: all 250ms ease-in-out;
   width: 100px;
 }
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
