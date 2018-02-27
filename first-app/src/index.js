@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from './components/Greeting';
-import './css/style.css';
+import App from './App';
+import './style.css';
 
 ReactDOM.render(
-  <Greeting />, document.querySelector('#main')
+  <App />, document.querySelector('#main')
 );
