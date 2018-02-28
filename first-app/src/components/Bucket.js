@@ -7,11 +7,11 @@ import '../css/bucket.css';
 class Bucket extends React.Component {
   render() {
     return (
-      <section className="wrapper">
+      <section className="bucket__wrapper">
         <article className="bucket">
-          <Title />
+          <Title titleName="Cool Title!"/>
           <Input />
-          <Button />
+          <Button btnContent="Button!"/>
         </article>
       </section>
     );

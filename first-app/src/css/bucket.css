@@ -1,3 +1,6 @@
+.bucket__wrapper {
+  padding: 0 2rem;
+}
 .bucket {
   align-items: flex-start;
   border: 1px solid #000;

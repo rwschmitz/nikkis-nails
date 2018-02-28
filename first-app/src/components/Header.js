@@ -1,15 +1,15 @@
 import React from 'react';
 import '../css/header.css';
 
-class Greeting extends React.Component {
-  render() {
-    return (
-      <header className="header">
-        <div className="headline">"This is a pretty basic app." -Rudy</div>
-        <div className="subheadline">-Michael Scott</div>
-      </header>
-    );
-  }
-}
+/*
+*  Using implicit return with an arrow function.
+*  Using destructuring of props so I can just use {headline} and {subheadline}
+*/
+const Header = ({headline, subheadline}) => (
+  <header className="header">
+    <div className="headline">{headline}</div>
+    <div className="subheadline">{subheadline}</div>
+  </header>
+);
 
-export default Greeting;
+export default Header;

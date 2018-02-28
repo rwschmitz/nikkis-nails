@@ -1,0 +1,15 @@
+.landing__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.landing__statement {
+  align-content: center;
+  color: #fff;
+  display: flex;
+  font-family: 'Aller-Reg';
+  font-size: 48px;
+  justify-content: center;
+  width: 100%;
+}

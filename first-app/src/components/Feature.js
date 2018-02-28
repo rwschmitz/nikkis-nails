@@ -5,7 +5,7 @@ import '../css/feature.css';
 class Feature extends React.Component {
   render() {
     return (
-      <section className="wrapper">
+      <section className="feature__wrapper">
         <Bucket />
         <Bucket />
         <Bucket />
