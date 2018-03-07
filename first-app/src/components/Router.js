@@ -6,8 +6,8 @@ import App from '../App.js';
 const Router = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={ Landing }></Route>
-      <Route exact path="/home" component={ App }></Route>
+      <Route exact path="/" component={Landing}></Route>
+      <Route exact path="/home" component={App}></Route>
     </Switch>
   </BrowserRouter>
 );

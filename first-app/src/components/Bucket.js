@@ -4,18 +4,14 @@ import Input from './Input';
 import Title from './Title';
 import '../css/bucket.css';
 
-class Bucket extends React.Component {
-  render() {
-    return (
-      <section className="bucket__wrapper">
-        <article className="bucket">
-          <Title titleName="Cool Title!"/>
-          <Input />
-          <Button btnContent="Button!"/>
-        </article>
-      </section>
-    );
-  }
-}
+const Bucket = ({bucketName, bucketButtonName}) => (
+  <section className="bucket__wrapper">
+    <article className="bucket">
+      <Title titleName={bucketName}/>
+      <Input />
+      <Button btnContent={bucketButtonName}/>
+    </article>
+  </section>
+);
 
 export default Bucket;
