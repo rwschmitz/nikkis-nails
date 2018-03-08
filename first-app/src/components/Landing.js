@@ -11,7 +11,7 @@ class Landing extends React.Component {
     return (
       <div className="landing__wrapper">
         <h1 className="landing__statement">Rudy's Cool App</h1>
-        <Button btnContent="Start app!" startApp={this.startApp} />
+        <Button btnContent="Start app!" navigateApp={this.startApp} />
       </div>
     );
   }
