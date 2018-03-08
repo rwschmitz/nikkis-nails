@@ -5,23 +5,23 @@ import '../css/feature.css';
 class Feature extends React.Component {
 
   goToAbout = () => {
-    console.log(this.props);
+    this.props.history.push('/about/');
   }
 
-  goToProducts = () => (
-    alert('this is button 2')
-  );
+  goToProducts = () => {
+    this.props.history.push('/products/');
+  }
 
-  goToContact = () => (
-    alert('this is button 3')
-  );
+  goToContact = () => {
+    this.props.history.push('/contact/');
+  }
 
   render() {
     return (
       <section className="feature__wrapper">
-        <Bucket bucketName="Title 1" bucketButtonName="Button 1" bucketButtonPurpose={this.goToAbout}/>
-        <Bucket bucketName="Title 2" bucketButtonName="Button 2" bucketButtonPurpose={this.goToProducts}/>
-        <Bucket bucketName="Title 3" bucketButtonName="Button 3" bucketButtonPurpose={this.goToContact}/>
+        <Bucket bucketName="About Us" bucketButtonName="About" bucketButtonPurpose={this.goToAbout}/>
+        <Bucket bucketName="Cool Products" bucketButtonName="Products" bucketButtonPurpose={this.goToProducts}/>
+        <Bucket bucketName="Contact Us" bucketButtonName="Contact" bucketButtonPurpose={this.goToContact}/>
       </section>
     );
   }

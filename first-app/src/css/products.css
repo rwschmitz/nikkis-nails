@@ -1,0 +1,8 @@
+.products-headline {
+  color: white;
+  display: flex;
+  font-family: 'Aller-Reg';
+  font-size: 24px;
+  justify-content: center;
+  width: 100%;
+}

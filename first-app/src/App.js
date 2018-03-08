@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="this-is-the-apps-name">
         <Header headline="'This is a pretty basic app.' -Rudy" subheadline="-Michael Scott" />
-        <Feature />
+        <Feature history={this.props.history} />
       </div>
     );
   }
