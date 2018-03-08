@@ -1,5 +1,7 @@
 .bucket__wrapper {
-  padding: 0 2rem;
+  max-width: 500px;
+  padding: 2rem;
+  width: 100%;
 }
 .bucket {
   align-items: flex-start;
@@ -8,5 +10,4 @@
   flex-wrap: wrap;
   height: 500px;
   justify-content: center;
-  width: 500px;
 }
