@@ -2,6 +2,10 @@
   "name": "first-app",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwschmitz/first-react-app.git"
+  },
   "dependencies": {
     "gatsby-cli": "^1.1.45",
     "netlify-cli": "^1.2.2",
