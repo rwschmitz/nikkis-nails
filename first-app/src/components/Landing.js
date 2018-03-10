@@ -10,7 +10,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div className="landing__wrapper">
-        <h1 className="landing__statement">Rudy's SUPER Cool App</h1>
+        <h1 className="landing__statement">Newt is the best!</h1>
         <Button btnContent="Start app!" navigateApp={this.startApp} />
       </div>
     );
