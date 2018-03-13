@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import Header from './Header';
 import '../css/landing.css';
 
 class Landing extends React.Component {
@@ -10,8 +11,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div className="landing__wrapper">
-        <h1 className="landing__statement">Newt is the best!!!</h1>
-        <Button btnContent="Start app!" navigateApp={this.startApp} />
+        <Header leftHeadline="Nikki's Nail Salon" rightHeadline="Contact" />
       </div>
     );
   }

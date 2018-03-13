@@ -1,5 +1,21 @@
+/* Define Variables */
+:root {
+  /* Colors */
+  --butterflyBush: #5f4b8b;
+  --ebony: #5d5e60;
+  --gainsboro: #e0e1de;
+  --lavenderPurple: #9381bb;
+  --logan:  #afa2cd;
+  --onyx: #353b3c;
+  --scampy: #6e57a1;
+  --white: #d7d6d6;
+  /* Fonts */
+  --alegreya: 'Alegreya', serif;
+  --alegreyaSans: 'Alegreya Sans', sans-serif;
+}
+
 body {
-  background-color: #5f4b8b;
+  background-color: var(--lavenderPurple);
   font-family: sans-serif;
   margin: 0;
   padding: 0;

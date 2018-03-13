@@ -3,12 +3,11 @@ import '../css/header.css';
 
 /*
 *  Using implicit return with an arrow function.
-*  Using destructuring of props so I can just use {headline} and {subheadline}
 */
-const Header = ({headline, subheadline}) => (
+const Header = ({leftHeadline, rightHeadline}) => (
   <header className="header">
-    <div className="headline">{headline}</div>
-    <div className="subheadline">{subheadline}</div>
+    <div className="headline headline--left">{leftHeadline}</div>
+    <div className="headline headline--right">{rightHeadline}</div>
   </header>
 );
 

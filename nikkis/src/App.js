@@ -2,7 +2,6 @@ import React from 'react';
 import Feature from './components/Feature';
 import Header from './components/Header';
 import './style.css';
-import './css/fonts.css';
 
 class App extends React.Component {
   render() {

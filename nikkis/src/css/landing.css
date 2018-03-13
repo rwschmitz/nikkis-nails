@@ -6,9 +6,9 @@
 }
 .landing__statement {
   align-content: center;
-  color: #fff;
+  color: var(--butterflyBush);
   display: flex;
-  font-family: 'Aller-Reg';
+  font-family: var(--alegreyaSans);
   font-size: 48px;
   justify-content: center;
   width: 100%;
