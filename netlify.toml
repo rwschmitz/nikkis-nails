@@ -1,4 +1,4 @@
 [build]
-  base    = "first-app/"
-  publish = "first-app/build"
+  base    = "nikkis/"
+  publish = "nikkis/build"
   command = "yarn build"
