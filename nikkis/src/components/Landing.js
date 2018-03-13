@@ -11,7 +11,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div className="landing__wrapper">
-        <Header leftHeadline="Nikki's Nail Salon" rightHeadline="Contact" />
+        <Header leftHeadline="Nikki's Nail Salon" rightHeadline="MENU &#9776;" />
       </div>
     );
   }

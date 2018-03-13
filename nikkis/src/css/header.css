@@ -4,16 +4,23 @@
   width: 100%;
 }
 .headline {
-  color: var(--gainsboro);
+  color: var(--white);
   display: flex;
   font-family: var(--alegreya);
-  font-size: 28px;
   font-weight: 400;
   width: 50%;
 }
 .headline--left {
+  font-size: 40px;
+  font-weight: 400;
   justify-content: flex-start;
 }
 .headline--right {
+  font-size: 20px;
   justify-content: flex-end;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.headline--right:hover {
+  color: var(--arsenic);
 }

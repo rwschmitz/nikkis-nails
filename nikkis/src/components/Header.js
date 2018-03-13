@@ -1,9 +1,6 @@
 import React from 'react';
 import '../css/header.css';
 
-/*
-*  Using implicit return with an arrow function.
-*/
 const Header = ({leftHeadline, rightHeadline}) => (
   <header className="header">
     <div className="headline headline--left">{leftHeadline}</div>
