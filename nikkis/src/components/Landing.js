@@ -1,19 +1,38 @@
 import React from 'react';
-import Button from './Button';
+import Bucket from './Bucket';
 import Footer from './Footer';
 import Header from './Header';
 import '../css/landing.css';
 
 class Landing extends React.Component {
-  startApp = () => {
+  startApp = ( ) => {
     this.props.history.push('/home');
   }
 
-  render() {
+  render( ) {
     return (
       <div className="landing__wrapper">
-        <Header leftHeadline="Nikki's Nail Salon" rightHeadline="&#9776;" />
-        <Footer />
+        <Header
+            leftHeadline="Nikki's Nail Salon"
+            rightHeadline="&#9776;"
+          />
+
+        <section className="landing__container">
+          <Bucket
+            servicesHeadline="Service 1"
+            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results.  Read more."
+            />
+          <Bucket
+            servicesHeadline="Service 2"
+            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results.  Read more."
+          />
+          <Bucket
+            servicesHeadline="Service 3"
+            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results.  Read more."
+          />
+        </section>
+
+        <Footer/>
       </div>
     );
   }

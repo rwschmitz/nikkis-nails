@@ -4,7 +4,7 @@ import '../css/products.css';
 
 class Products extends React.Component {
 
-  render() {
+  render( ) {
     return (
       <div>
         <Header headline="'Cool Products Page'" subheadline="-Michael Scott" />

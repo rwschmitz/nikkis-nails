@@ -1,15 +1,15 @@
 import React from 'react';
-import Button from './Button';
-import Input from './Input';
-import Title from './Title';
 import '../css/bucket.css';
 
-const Bucket = ({bucketName, bucketButtonName, bucketButtonPurpose}) => (
+const Bucket = ( { servicesHeadline, servicesCopy } ) => (
   <section className="bucket__wrapper">
     <article className="bucket">
-      <Title titleName={bucketName}/>
-      <Input />
-      <Button btnContent={bucketButtonName} navigateApp={bucketButtonPurpose}/>
+      <h2 className="bucket__headline">
+        { servicesHeadline }
+      </h2>
+      <p className="bucket__copy">
+        { servicesCopy }
+      </p>
     </article>
   </section>
 );

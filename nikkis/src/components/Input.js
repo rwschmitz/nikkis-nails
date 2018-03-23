@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/input.css';
 
 class Input extends React.Component {
-  render() {
+  render( ) {
     return (
       <input type="text" className="input-area"></input>
     );

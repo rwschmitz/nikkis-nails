@@ -1,7 +1,7 @@
 .about-headline {
   color: white;
   display: flex;
-  font-family: var(--alegreyaSans);
+  font-family: var(--headingSans);
   font-size: 24px;
   justify-content: center;
   width: 100%;

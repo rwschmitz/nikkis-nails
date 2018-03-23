@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1600px;
   padding: 0.5rem;
   width: 100%;
 }
@@ -9,22 +10,37 @@
   color: var(--white);
   display: flex;
   flex-grow: 1;
-  font-family: var(--alegreya);
+  font-family: var(--heading);
   font-weight: 400;
-  justify-content: center;
   width: 100%;
+}
+.headline--left,
+.headline--right {
+  width: auto;
 }
 .headline--left {
   font-size: 30px;
   font-weight: 400;
-  width: auto;
+  justify-content: flex-start;
 }
 .headline--right {
-  font-size: 20px;
   cursor: pointer;
+  font-size: 20px;
+  justify-content: flex-end;
   transition: all 300ms ease;
-  width: auto;
 }
 .headline--right:hover {
   color: var(--arsenic);
+}
+@media screen and ( min-width: 800px ) {
+  .headline--left,
+  .headline--right {
+    width: 50%;
+  }
+  .headline--left {
+    font-size: 40px;
+  }
+  .headline--right {
+    font-size: 30px;
+  }
 }

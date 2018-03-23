@@ -4,7 +4,7 @@ import '../css/contact.css';
 
 class Contact extends React.Component {
 
-  render() {
+  render( ) {
     return (
       <div>
         <Header headline="'Cool Contact Page'" subheadline="-Michael Scott" />

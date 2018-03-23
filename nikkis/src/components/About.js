@@ -4,7 +4,7 @@ import '../css/about.css';
 
 class About extends React.Component {
 
-  render() {
+  render( ) {
     return (
       <div>
         <Header headline="'Cool About Page'" subheadline="-Michael Scott" />
