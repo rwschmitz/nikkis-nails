@@ -2,11 +2,52 @@
   background-color: var(--arsenic);
   color: var(--white);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0.25rem;
+  padding: 0.25rem 0;
   width: 100%;
 }
-.footer-image {
-  height: 30px;
-  width: 30px;
+.footer__image {
+  height: 40px;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.footer__information {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+@media screen and ( min-width: 800px )  {
+  .footer__container {
+    align-items: center;
+    width: 33%;
+  }
+  .footer__information {
+    padding: 0;
+  }
+}
+@media screen and ( min-width: 1280px ) {
+  .footer {
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  .footer__container {
+    width: 30%;
+    justify-content: center;
+  }
+  .footer__image {
+    height: 25px;
+    padding: 0 1rem;
+    width: auto;
+  }
+  .footer__information {
+    padding:  0 0.25rem;
+    width: auto;
+  }
 }

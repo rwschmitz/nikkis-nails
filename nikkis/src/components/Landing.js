@@ -11,7 +11,7 @@ class Landing extends React.Component {
 
   render( ) {
     return (
-      <div className="landing__wrapper">
+      <main className="landing__wrapper">
         <Header
             leftHeadline="Nikki's Nail Salon"
             rightHeadline="&#9776;"
@@ -32,8 +32,14 @@ class Landing extends React.Component {
           />
         </section>
 
-        <Footer/>
-      </div>
+        <Footer
+          hoursMin="Sun: 11a &ndash; 6p"
+          hoursMaj="Mon &ndash; Sat: 9a &ndash; 8p"
+          locationStreet="208 N Hwy 67"
+          locationCityStateZip="Florissant, MO 63031"
+          contact="314.838.2823"
+        />
+      </main>
     );
   }
 }
