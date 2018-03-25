@@ -20,15 +20,15 @@ class Landing extends React.Component {
         <section className="landing__container">
           <Bucket
             servicesHeadline="Service 1"
-            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results.  Read more."
+            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results."
             />
           <Bucket
             servicesHeadline="Service 2"
-            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results.  Read more."
+            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results."
           />
           <Bucket
             servicesHeadline="Service 3"
-            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results.  Read more."
+            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results."
           />
         </section>
 

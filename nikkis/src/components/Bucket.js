@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 import '../css/bucket.css';
 
 const Bucket = ( { servicesHeadline, servicesCopy } ) => (
@@ -10,6 +11,7 @@ const Bucket = ( { servicesHeadline, servicesCopy } ) => (
       <p className="bucket__copy">
         { servicesCopy }
       </p>
+      <Button btnContent="Learn more!"/>
     </article>
   </section>
 );

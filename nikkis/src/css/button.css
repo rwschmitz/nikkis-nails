@@ -1,8 +1,9 @@
 .btn {
   border: none;
-  background-color: #000;
+  background-color: var(--arsenic);
   color: #fff;
   cursor: pointer;
+  font-family: var(--heading);
   height: 25px;
   outline: 0;
   transition: all 250ms ease-in-out;
@@ -10,6 +11,6 @@
 }
 .btn:hover {
   background-color: #fff;
-  color: #000;
+  color: var(--arsenic);
 }
 
