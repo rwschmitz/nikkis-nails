@@ -2,6 +2,7 @@ import React from 'react';
 import Bucket from './Bucket';
 import Footer from './Footer';
 import Header from './Header';
+
 import '../css/landing.css';
 
 class Landing extends React.Component {
@@ -12,6 +13,7 @@ class Landing extends React.Component {
   render( ) {
     return (
       <main className="landing__wrapper">
+
         <Header
             leftHeadline="Nikki's Nail Salon"
             rightHeadline="&#9776;"

@@ -6248,6 +6248,12 @@ react-scripts@1.1.1:
   optionalDependencies:
     fsevents "^1.1.3"
 
+react-slide-out@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-slide-out/-/react-slide-out-0.1.4.tgz#eb9811f77bdecf3102db1afdef8a20364e87e26f"
+  dependencies:
+    prop-types "^15.6.0"
+
 react@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/react/-/react-0.13.3.tgz#a2dfa85335d7dc02b82b482f089582e64cc13356"
