@@ -1,0 +1,5 @@
+.service__wrapper {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+}

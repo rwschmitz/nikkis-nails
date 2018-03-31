@@ -3,10 +3,18 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.landing__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.landing__header,
+.landing__buckets {
   max-width: 1600px;
+  width: 100%;
+}
+.landing__feature {
+  display: flex;
+  border: 5px solid blue;
+}
+.landing__buckets {
+
+}
+.landing__footer {
   width: 100%;
 }

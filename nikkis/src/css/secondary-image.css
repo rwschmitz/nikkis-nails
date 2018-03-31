@@ -1,0 +1,17 @@
+.secondary__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.secondary__image {
+    width: 100%;
+}
+@media screen and ( min-width: 800px ) {
+    .secondary__wrapper {
+        padding: 2rem;
+    }
+    .secondary__image {
+        width: 200px;
+        height: 200px;
+    }
+}

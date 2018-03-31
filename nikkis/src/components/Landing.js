@@ -1,9 +1,13 @@
 import React from 'react';
-import Bucket from './Bucket';
+import Service from './Service';
+import Feature from './Feature';
 import Footer from './Footer';
 import Header from './Header';
-
 import '../css/landing.css';
+import shop from '../img/shop001.jpg';
+import hand001 from '../img/hand001.jpg';
+import hand002 from '../img/hand002.jpg';
+import hand003 from '../img/hand003.jpg';
 
 class Landing extends React.Component {
   startApp = ( ) => {
@@ -14,33 +18,31 @@ class Landing extends React.Component {
     return (
       <main className="landing__wrapper">
 
-        <Header
+        <section className="landing__header">
+          <Header
             leftHeadline="Nikki's Nail Salon"
             rightHeadline="&#9776;"
           />
-
-        <section className="landing__container">
-          <Bucket
-            servicesHeadline="Service 1"
-            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results."
-            />
-          <Bucket
-            servicesHeadline="Service 2"
-            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results."
-          />
-          <Bucket
-            servicesHeadline="Service 3"
-            servicesCopy="We offer a service that will provide you the best solution while maintaining an affordable cost with high quality results."
-          />
         </section>
 
-        <Footer
-          hoursMin="Sun: 11a &ndash; 6p"
-          hoursMaj="Mon &ndash; Sat: 9a &ndash; 8p"
-          locationStreet="208 N Hwy 67"
-          locationCityStateZip="Florissant, MO 63031"
-          contact="314.838.2823"
-        />
+          <Feature
+            primaryImage={ shop }
+            secondaryImage1={ hand001 }
+            secondaryImage2={ hand002 }
+            secondaryImage3={ hand003 }
+          />
+
+        <Service />
+
+        <section className="landing__footer">
+          <Footer
+              hoursMin="Sun: 11a &ndash; 6p"
+              hoursMaj="Mon &ndash; Sat: 9a &ndash; 8p"
+              locationStreet="208 N Hwy 67"
+              locationCityStateZip="Florissant, MO 63031"
+              contact="314.838.2823"
+            />
+          </section>
       </main>
     );
   }

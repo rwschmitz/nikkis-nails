@@ -1,7 +1,21 @@
 .feature__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1rem 0;
-  width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    max-width: 1600px;
+    padding: 0;
+    width: 100%;
 }
+.feature__primary-container,
+.feature__secondary-container {
+    width: 100%;
+}
+@media screen and ( min-width: 800px ) {
+    .feature__primary-container {
+        width: 70%;
+    }
+    .feature__secondary-container {
+        width: 30%;
+    }
+  }

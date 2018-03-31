@@ -1,0 +1,13 @@
+.primary__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.primary__image {
+    width: 100%;
+}
+@media screen and ( min-width: 800px ) {
+    .primary__image {
+        width: 500px;
+    }
+}

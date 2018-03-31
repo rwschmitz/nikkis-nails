@@ -27,6 +27,7 @@
   cursor: pointer;
   font-size: 20px;
   justify-content: flex-end;
+  text-decoration: none;
   transition: all 300ms ease;
 }
 .headline--right:hover {
