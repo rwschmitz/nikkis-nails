@@ -4,12 +4,14 @@
     width: 100%;
 }
 .secondary__image {
+    border: 1px solid red;
+    height: auto;
     padding: 2rem;
     width: 100%;
 }
 @media screen and ( min-width: 800px ) {
     .secondary__wrapper {
-        padding: 2rem;
+        padding: 1rem;
     }
     .secondary__image {
         padding: 0;
