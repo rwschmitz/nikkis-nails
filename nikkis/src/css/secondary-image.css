@@ -1,7 +1,6 @@
 .secondary__wrapper {
     display: flex;
     justify-content: center;
-
 }
 .secondary__container {
 
@@ -11,9 +10,9 @@
 }
 @media screen and ( min-width: 800px ) {
     .secondary__wrapper {
-        width: 100%;
         overflow: hidden;
         padding: 3rem 0;
+        width: 100%;
     }
     .secondary__container {
         border: 1px solid rgba(0, 0, 0, 0.25);
@@ -25,9 +24,9 @@
         width: 175px;
     }
     .secondary__image {
+        height: 275px;
         padding: 0;
-        height: 300px;
-        transform: rotate(-45deg) translate(25px, -105px);
-        width: 300px;
+        transform: rotate(-45deg) translate(15px, -85px);
+        width: 275px;
     }
 }

@@ -9,13 +9,16 @@
 }
 @media screen and ( min-width: 800px ) {
     .primary__wrapper {
-        overflow: hidden;
+        justify-content: center;
         width: 100%;
-
     }
     .primary__container {
-
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+        height: 600px;
+        width: 600px;
     }
     .primary__image {
+        height: 100%;
+        width: 100%;
     }
 }

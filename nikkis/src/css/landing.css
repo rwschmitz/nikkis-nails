@@ -1,8 +1,8 @@
 .landing__wrapper {
+  background: linear-gradient( 135deg, transparent, transparent 50%, #3d364e 50%);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: linear-gradient( 135deg, transparent, transparent 50%, #3d364e 50%);
 }
 .landing__header,
 .landing__buckets {
@@ -11,13 +11,6 @@
 }
 .landing__header {
   margin-bottom: 3rem;
-}
-.landing__feature {
-  display: flex;
-  border: 5px solid blue;
-}
-.landing__buckets {
-
 }
 .landing__footer {
   width: 100%;

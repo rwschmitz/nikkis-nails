@@ -4,7 +4,7 @@ import Feature from './Feature';
 import Footer from './Footer';
 import Header from './Header';
 import '../css/landing.css';
-import shop from '../img/shop001.jpg';
+import shop from '../img/shop001-square.jpg';
 import hand001 from '../img/hand001-square.jpg';
 import hand002 from '../img/hand002-square.jpg';
 import hand003 from '../img/hand003-square.jpg';
