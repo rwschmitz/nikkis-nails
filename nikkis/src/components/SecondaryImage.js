@@ -7,9 +7,11 @@ class SecondaryImage extends React.Component {
         secondaryImage
      } = this.props;
     return (
-      <article className="secondary__wrapper">
-        <img className="secondary__image" src={ secondaryImage } alt="Nikki's Nails Finished Product!" />
-      </article>
+      <section className="secondary__wrapper">
+        <article className="secondary__container">
+          <img className="secondary__image" src={ secondaryImage } alt="Nikki's Nails Finished Product!" />
+        </article>
+      </section>
     );
   }
 }

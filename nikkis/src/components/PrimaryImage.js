@@ -5,9 +5,11 @@ class PrimaryImage extends React.Component {
   render() {
     const { primaryImage } = this.props;
     return (
-      <article className="primary__wrapper">
-        <img className="primary__image" src={ primaryImage } alt="Nikki's Nails" />
-      </article>
+      <section className="primary__wrapper">
+        <article className="primary__container">
+          <img className="primary__image" src={ primaryImage } alt="Nikki's Nails Finished Product!" />
+        </article>
+      </section>
     );
   }
 }

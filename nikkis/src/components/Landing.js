@@ -5,9 +5,9 @@ import Footer from './Footer';
 import Header from './Header';
 import '../css/landing.css';
 import shop from '../img/shop001.jpg';
-import hand001 from '../img/hand001.jpg';
-import hand002 from '../img/hand002.jpg';
-import hand003 from '../img/hand003.jpg';
+import hand001 from '../img/hand001-square.jpg';
+import hand002 from '../img/hand002-square.jpg';
+import hand003 from '../img/hand003-square.jpg';
 
 class Landing extends React.Component {
   startApp = ( ) => {

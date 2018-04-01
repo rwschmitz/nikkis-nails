@@ -2,11 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background: linear-gradient( 135deg, transparent, transparent 50%, #3d364e 50%);
 }
 .landing__header,
 .landing__buckets {
   max-width: 1600px;
   width: 100%;
+}
+.landing__header {
+  margin-bottom: 3rem;
 }
 .landing__feature {
   display: flex;
