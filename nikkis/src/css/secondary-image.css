@@ -4,6 +4,7 @@
     width: 100%;
 }
 .secondary__image {
+    padding: 2rem;
     width: 100%;
 }
 @media screen and ( min-width: 800px ) {
@@ -11,6 +12,7 @@
         padding: 2rem;
     }
     .secondary__image {
+        padding: 0;
         width: 200px;
         height: 200px;
     }

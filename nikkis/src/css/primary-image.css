@@ -4,10 +4,12 @@
     width: 100%;
 }
 .primary__image {
+    padding: 2rem;
     width: 100%;
 }
 @media screen and ( min-width: 800px ) {
     .primary__image {
+        padding: 0;
         width: 500px;
     }
 }
